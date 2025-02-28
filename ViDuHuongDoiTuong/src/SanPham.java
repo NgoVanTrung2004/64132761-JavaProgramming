@@ -1,4 +1,4 @@
-
+//
 public class SanPham {
 	// Định nghĩa các thuộc tính
 	int maSP;
