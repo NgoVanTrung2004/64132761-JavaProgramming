@@ -26,18 +26,18 @@ class SP {
 
 public class Lab4Bai2_2SanPham {
     public static void main(String[] args) {
-        SanPham sp1 = new SanPham();
-        SanPham sp2 = new SanPham();
-        
+        SP sp1 = new SP(); 
+        SP sp2 = new SP(); 
+
         System.out.println("Nhập thông tin sản phẩm thứ nhất:");
         sp1.nhap();
-        
+
         System.out.println("Nhập thông tin sản phẩm thứ hai:");
         sp2.nhap();
-        
+
         System.out.println("Thông tin sản phẩm thứ nhất:");
         sp1.xuat();
-        
+
         System.out.println("Thông tin sản phẩm thứ hai:");
         sp2.xuat();
     }
