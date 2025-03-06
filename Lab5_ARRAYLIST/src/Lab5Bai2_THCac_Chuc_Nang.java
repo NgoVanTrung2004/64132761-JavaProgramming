@@ -28,7 +28,7 @@ public class Lab5Bai2_THCac_Chuc_Nang {
 
             switch (choice) {
                 case 1:
-                    System.out.print("Nhập họ và tên:\n ");
+                    System.out.print("Nhập họ và tên: ");
                     String name = scanner.nextLine();
                     list.add(name);
                     break;
